@@ -65,15 +65,10 @@
         <h2>Demo Reel</h2>
       </div>
         <div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 cell">
-            <video id="videoPlayer" class="cell">
+            <video controls id="videoPlayer" class="cell">
                 <source src="video/demo-reel.mp4" type="video/mp4">
                 <h2>Video not supported by browser.</h2>
             </video>
-        </div>
-        <div id="videoControls" class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 cell">
-            <button id="playVideo" class="playButton"></button>
-            <input id="timeBar" type="range" value="0">
-            <button id="muteVideo" class="muteButton"></button>
         </div>
     </div>
 
@@ -83,11 +78,12 @@
         <h2>Contact Me!</h2>
       </div>
       <div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 cell">
-        <form action="process.php" method="get" id="contactForm">
-            <input type="text" placeholder="Name*" required>
-            <input type="email" placeholder="Email*" required>
-            <input type="text" placeholder="Subject*" required>
-            <textarea placeholder="Message*" required></textarea>
+        <form action="contact.php" method="post" id="contactForm">
+            <input type="text" placeholder="Name*" required name="name">
+            <input type="email" placeholder="Email*" required name="email">
+            <input type="text" placeholder="Subject*" required name="about">
+            <textarea placeholder="Message*" required name="message"></textarea>
+            <input type='text' name="street" class='hide'>
             <button type="submit">Send</button>
         </form>
       </div>

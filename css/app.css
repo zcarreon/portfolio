@@ -259,7 +259,12 @@ a:hover {
   /* Intro Screen */
   #mainIntro img {margin-top: 100px; height: 35%; width: 35%;}
   /* Bio */
-  #mainBio {background-size: 35%;}
+  #mainBio {background-size: 35%; min-height: 350px;}
+  /* Illustrations and Designs */
+  #illCon h2 {padding-top: 170px; padding-bottom: 170px; font-size: 3em;}
+  #desCon h2 {padding-top: 170px; padding-bottom: 170px; font-size: 3em;}
+  #illCon:hover {background-image: url(../images/illus-example.png);}
+  #desCon:hover {background-image: url(../images/des-example.png); background-size: 120%; background-repeat: no-repeat;}
   /* Video */
   #videoPlayer {margin: 0 auto;}
   /*Footer*/

@@ -8,10 +8,10 @@
   }
 
   //echo "From mail.php";
-  function submitMessage($direct, $name, $email, $message) {
+  function submitMessage($direct, $name, $email, $about, $message) {
     //echo "From submitMessage";
     $to = "email@zacharycarreonweb.com";
-    $subject = "Message from user from hosting";
+    $subject = $about;
 		$extra = "Reply to: " + $email;
 		$msg = "Name: ".$name."\n\nEmail: ".$email."\n\nMessage: ".$message;
 		mail($to, $subject, $msg, $extra);
