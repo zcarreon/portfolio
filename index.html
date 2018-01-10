@@ -11,9 +11,9 @@
   </head>
   <body>
     <!--HEADER-->
-    <header id="mainHeader" class="grid-x">
+    <header id="mainHeader" class="grid-x grid-padding-x">
       <h2 class="hide">Main Header</h2>
-      <nav class="small-12 large-5 cell">
+      <nav class="small-12 large-6 large-offset-6 cell">
         <h2 class="hide">Main Navigation</h2>
         <div class="title-bar" data-responsive-toggle="mainMenu" data-hide-for="large">
           <button class="menu-icon float-right" type="button" data-toggle></button>
@@ -21,13 +21,85 @@
         <div id="mainMenu">
           <ul id="mainNav">
             <li><a href="#bio">Bio</a></li>
-            <li><a href="">Illustration & Design</a></li>
-            <li><a href="">Video</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#illCon">Illustration & Design</a></li>
+            <li><a href="#mainVideo">Video</a></li>
+            <li><a href="#mainContact">Contact</a></li>
           </ul>
         </div>
       </nav>
+
     </header>
+
+    <!--Intro Screen-->
+    <div id="mainIntro" class="grid-x grid-padding-x">
+      <div class="cell">
+        <img src="images/logo.svg" alt="logo" id="logo">
+        <h2>Zachary Carreon</h2>
+        <h3>Artist - Illustrator - Designer</h3>
+      </div>
+    </div>
+
+    <!--BIO-->
+    <div id="mainBio" class="grid-x grid-padding-x">
+      <div class="small-12 medium-7 large-7 cell">
+          <h2>Bio</h2>
+          <p>Hi! My name is Zachary Carreon. I am an artist, illustrator and designer. I'm proficient with Adobe Photoshop, Illustrator, InDesign and After Effects. I'm experienced with traditional art skills, such as drawing and painting as well. I also have coding experience with HTML5, CSS, Javascript and SQL.</p>
+      </div>
+    </div>
+
+    <!--ILlustration & Design-->
+    <div id="mainContent" class="grid-x grid-padding-x">
+      <div id="illCon" class="small-12 medium-6 large-6 cell">
+          <h2>Illustrations</h2>
+      </div>
+      <div id="desCon" class="small-12 medium-6 large-6 cell">
+          <h2>Designs</h2>
+      </div>
+    </div>
+
+    <!--Video-->
+    <div id="mainVideo" class="grid-x grid-padding-x">
+      <div class="small-6 small-offset-3 cell">
+        <h2>Demo Reel</h2>
+      </div>
+        <div>
+            <!-- <video id="videoPlayer" class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 cell">
+                <source src="video/demo-reel.mp4" type="video/mp4">
+                <h2>Video not supported by browser.</h2>
+            </video> -->
+        </div>
+    </div>
+
+    <!--Contact Form-->
+    <div id="mainContact" class="grid-x grid-padding-x">
+      <div class="small-6 small-offset-3 cell">
+        <h2>Contact Me!</h2>
+      </div>
+      <div class="small-12 cell">
+        <form action="process.php" method="get" id="contactForm">
+            <input type="text" placeholder="Name*" required>
+            <input type="email" placeholder="Email*" required>
+            <input type="text" placeholder="Subject*" required>
+            <textarea placeholder="Message*" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <footer id="mainFooter" class="grid-x grid-padding-x">
+        <div>
+          <nav class="small-12 large-12 cell">
+            <h2 class="hide">Footer Navigation</h2>
+            <a href="#mainHeader" id="topButton">Back to Top</a>
+            <ul id="footerNav">
+              <li><a href="#bio">Bio</a></li>
+              <li><a href="#illCon">Illustration & Design</a></li>
+              <li><a href="#mainVideo">Video</a></li>
+              <li><a href="#mainContact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+    </footer>
 
 
 
