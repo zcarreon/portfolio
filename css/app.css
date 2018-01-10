@@ -66,6 +66,7 @@ a:hover {
 #mainIntro {
   text-align: center;
   background-color: #ee57a1;
+  padding-bottom: 25px;
 }
 
 #mainIntro img {
@@ -204,8 +205,6 @@ a:hover {
   background-color: #ee57a1;
   padding-top: 20px;
   padding-bottom: 15px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 #footerNav {
@@ -223,8 +222,7 @@ a:hover {
 }
 
 #topButton {
-  margin: 0 auto;
-  text-align: center;
+  margin-left: 50px;
 }
 
 #topButton:hover {
@@ -246,7 +244,9 @@ a:hover {
   #illCon {padding-top: 75px; padding-bottom: 70px;}
   #desCon {padding-top: 75px; padding-bottom: 70px;}
   /* Video */
-  
+  #mainVideo h2 {font-size: 2em;}
+  /* Contact Form */
+  #mainContact h2 {font-size: 2em;}
 }
 
 @media screen and (min-width: 64em) {
@@ -257,9 +257,11 @@ a:hover {
   #mainNav li a {display: inline; border-top: none; font-size: 1em; color: #fff; background: none;}
   #mainNav li a:hover {color: #fff; border-bottom: 1px solid #fff;}
   /* Intro Screen */
-  #mainIntro img {margin-top: 100px;}
+  #mainIntro img {margin-top: 100px; height: 35%; width: 35%;}
   /* Bio */
   #mainBio {background-size: 35%;}
+  /* Video */
+  #videoPlayer {margin: 0 auto;}
   /*Footer*/
   #topButton {display: none;}
   #footerNav {display: inline;}
