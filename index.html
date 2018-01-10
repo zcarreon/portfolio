@@ -20,7 +20,7 @@
         </div>
         <div id="mainMenu">
           <ul id="mainNav">
-            <li><a href="#bio">Bio</a></li>
+            <li><a href="#mainBio">Bio</a></li>
             <li><a href="#illCon">Illustration & Design</a></li>
             <li><a href="#mainVideo">Video</a></li>
             <li><a href="#mainContact">Contact</a></li>
@@ -45,7 +45,7 @@
     <div id="mainBio" class="grid-x grid-padding-x">
       <div class="small-12 medium-7 large-7 cell">
           <h2>Bio</h2>
-          <p>Hi! My name is Zachary Carreon. I am an artist, illustrator and designer. I'm proficient with Adobe Photoshop, Illustrator, InDesign and After Effects. I'm experienced with traditional art skills, such as drawing and painting as well. I also have coding experience with HTML5, CSS, Javascript and SQL.</p>
+          <p>Hi! My name is Zachary Carreon. I am an artist, illustrator and designer. I'm proficient with Adobe Photoshop, Illustrator, InDesign and After Effects. I'm experienced with traditional art skills, such as drawing and painting as well. I also have coding experience with HTML5, CSS and Javascript</p>
       </div>
     </div>
 
@@ -65,15 +65,12 @@
         <h2>Demo Reel</h2>
       </div>
         <div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 cell">
-            <video id="videoPlayer" class="cell">
+            <video controls id="videoPlayer" class="cell">
                 <source src="video/demo-reel.mp4" type="video/mp4">
+                <source src="video/demo-reel.webm" type="video/webm">
+                <source src="video/demo-reel.ogg" type="video/ogg">
                 <h2>Video not supported by browser.</h2>
             </video>
-        </div>
-        <div id="videoControls" class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 cell">
-            <button id="playVideo" class="playButton"></button>
-            <input id="timeBar" type="range" value="0">
-            <button id="muteVideo" class="muteButton"></button>
         </div>
     </div>
 
@@ -83,7 +80,7 @@
         <h2>Contact Me!</h2>
       </div>
       <div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 cell">
-        <form action="process.php" method="get" id="contactForm">
+        <form action="" method="post" id="contactForm">
             <input type="text" placeholder="Name*" required>
             <input type="email" placeholder="Email*" required>
             <input type="text" placeholder="Subject*" required>
@@ -99,7 +96,7 @@
             <h2 class="hide">Footer Navigation</h2>
             <a href="#mainHeader" id="topButton">Back to Top</a>
             <ul id="footerNav">
-              <li><a href="#bio">Bio</a></li>
+              <li><a href="#mainBio">Bio</a></li>
               <li><a href="#illCon">Illustration & Design</a></li>
               <li><a href="#mainVideo">Video</a></li>
               <li><a href="#mainContact">Contact</a></li>

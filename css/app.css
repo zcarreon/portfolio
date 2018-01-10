@@ -152,6 +152,10 @@ a:hover {
   font-size: 1.75em;
 }
 
+#videoPlayer {
+  padding-bottom: 20px;
+}
+
 /* Contact Form */
 #mainContact h2 {
   text-align: center;
@@ -259,7 +263,7 @@ a:hover {
   /* Intro Screen */
   #mainIntro img {margin-top: 100px; height: 35%; width: 35%;}
   /* Bio */
-  #mainBio {background-size: 35%;}
+  #mainBio {background-size: 35%; min-height: 250px;}
   /* Video */
   #videoPlayer {margin: 0 auto;}
   /*Footer*/
