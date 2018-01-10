@@ -1,0 +1,21 @@
+/* Developer Tools */
+.boxHelper {
+  color: #fff;
+  background-color: red;
+  text-align: center;
+}
+
+/* General Rules */
+body {
+  font-family : 'Varela Round', sans-serif;
+}
+
+h2 {
+  font-family : 'Pacifico', cursive;
+}
+
+/* Bio */
+#bio {
+  color : #fff;
+  background-color : #555;
+}
