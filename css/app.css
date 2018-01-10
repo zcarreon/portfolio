@@ -118,6 +118,7 @@ a:hover {
 #illCon:hover {
   color: #555;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #illCon h2 {
@@ -134,6 +135,7 @@ a:hover {
 #desCon:hover {
   color: #555;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #desCon h2 {
@@ -143,6 +145,7 @@ a:hover {
 /* Video */
 #mainVideo {
   background-color: #9ba0ff;
+  padding-bottom: 20px;
 }
 
 #mainVideo h2 {
@@ -267,6 +270,7 @@ a:hover {
   #desCon:hover {background-image: url(../images/des-example.png); background-size: 120%; background-repeat: no-repeat;}
   /* Video */
   #videoPlayer {margin: 0 auto;}
+  #mainVideo {font-size: 2em;}
   /*Footer*/
   #topButton {display: none;}
   #footerNav {display: inline;}
