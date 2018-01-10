@@ -8,14 +8,57 @@
 /* General Rules */
 body {
   font-family : 'Varela Round', sans-serif;
+  color: #fff;
+  background-color: #ff9bc6;
 }
 
 h2 {
   font-family : 'Pacifico', cursive;
 }
 
+li {
+  font-family : 'Pacifico', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Header */
+#mainHeader {
+  background-color: #ee57a1;
+}
+
+.title-bar {
+  background-color: #ee57a1;
+  float: right;
+}
+
+.title-bar .menu-icon {
+  margin-right: 0;
+}
+
 /* Bio */
-#bio {
-  color : #fff;
-  background-color : #555;
+
+/* Illustration & Design */
+
+/* Video */
+
+/* Contact Form */
+
+/* Footer */
+
+/* General Media Queries */
+@media screen and (min-width: 64em) {
+  /*Header*/
+  #mainHeader {position: relative; max-width: none;}
+  #mainNav {text-align: right; margin-top: 5px; margin-right: 10px;}
+  #mainNav li {display: inline; margin-left: 15px;}
+  #mainNav li a {display: inline; border-top: none; font-size: 1em;}
+  #mainNav li a:hover {color: #fff; border-bottom: 1px solid #fff;}
 }
